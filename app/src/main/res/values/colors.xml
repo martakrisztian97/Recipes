@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home">#b71c1c</color>
+    <color name="home_light">#f05545</color>
+    <color name="home_dark">#7f0000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="muffin">#4c312e</color>
+    <color name="muffin_light">#795b57</color>
+    <color name="muffin_dark">#240a04</color>
+    <color name="muffin_bg">#fff7d9</color>
+    <color name="pizza_bg">#f6d09f</color>
+</resources>

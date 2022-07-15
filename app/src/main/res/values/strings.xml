@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Dalma receptjei</string>
+    <string name="ingredients">Hozzávalók</string>
+    // Label strings
+    <string name="muffin">Muffin</string>
+    <string name="pizza">Kelt pizzatészta</string>
+
+    // Recipes strings
+    <string-array name="recipes">
+        <item>Muffin</item>
+        <item>Kelt pizzatészta</item>
+    </string-array>
+
+    // Ingredients strings
+    <string-array name="muffinIngredients">
+        <item>200 g vaj</item>
+        <item>3 dl cukor</item>
+        <item>3.5 dl liszt</item>
+        <item>vaníliás cukor</item>
+        <item>sütőpor</item>
+        <item>4 tojás</item>
+        <item>2 ek. kakaópor</item>
+    </string-array>
+
+    <string-array name="pizzaIngredientsDose1">
+        <item>83 g finomliszt</item>
+        <item>0.5 dkg élesztő</item>
+        <item>0.5 dl víz</item>
+        <item>0.1 teáskanál cukor</item>
+        <item>0.7 ek. olívaolaj</item>
+        <item>só ízlés szerint</item>
+    </string-array>
+
+    <string-array name="pizzaIngredientsDose2">
+        <item>166 g finomliszt</item>
+        <item>1 dkg élesztő</item>
+        <item>1 dl víz</item>
+        <item>0.2 teáskanál cukor</item>
+        <item>1.3 ek. olívaolaj</item>
+        <item>só ízlés szerint</item>
+    </string-array>
+
+    <string-array name="pizzaIngredientsDose3">
+        <item>250 g finomliszt</item>
+        <item>1.5 dkg élesztő</item>
+        <item>1.5 dl víz</item>
+        <item>0.3 teáskanál cukor</item>
+        <item>2 ek. olívaolaj</item>
+        <item>só ízlés szerint</item>
+    </string-array>
+
+    <string-array name="pizzaIngredientsDose4">
+        <item>333 g finomliszt</item>
+        <item>2 dkg élesztő</item>
+        <item>2 dl víz</item>
+        <item>0.3 teáskanál cukor</item>
+        <item>2.7 ek. olívaolaj</item>
+        <item>só ízlés szerint</item>
+    </string-array>
+
+    <string-array name="pizzaIngredientsDose5">
+        <item>416 g finomliszt</item>
+        <item>2.5 dkg élesztő</item>
+        <item>2.5 dl víz</item>
+        <item>0.4 teáskanál cukor</item>
+        <item>3.3 ek. olívaolaj</item>
+        <item>só ízlés szerint</item>
+    </string-array>
+
+    <string-array name="pizzaIngredientsDose6">
+        <item>500 g finomliszt</item>
+        <item>3 dkg élesztő</item>
+        <item>3 dl víz</item>
+        <item>0.5 teáskanál cukor</item>
+        <item>4 ek. olívaolaj</item>
+        <item>só ízlés szerint</item>
+    </string-array>
+
+</resources>

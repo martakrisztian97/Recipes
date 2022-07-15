@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pizza_bg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".PizzaActivity">
+
+        <ImageView
+            android:id="@+id/pizzaImage"
+            android:layout_width="300dp"
+            android:layout_height="169dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/home_pizza" />
+
+        <TextView
+            android:id="@+id/ingredientsTitle"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/italianno"
+            android:text="@string/ingredients"
+            android:textColor="@color/black"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pizzaImage" />
+
+        <Button
+            android:id="@+id/doseMinusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/pizzaImage"
+            app:layout_constraintTop_toBottomOf="@+id/ingredientsTitle" />
+
+        <TextView
+            android:id="@+id/doseText"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/italianno"
+            android:text="3 Adag"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@id/doseMinusButton"
+            app:layout_constraintEnd_toStartOf="@+id/dosePlusButton"
+            app:layout_constraintTop_toTopOf="@id/doseMinusButton"
+            app:layout_constraintBottom_toBottomOf="@id/doseMinusButton"/>
+
+        <Button
+            android:id="@+id/dosePlusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/pizzaImage"
+            app:layout_constraintTop_toBottomOf="@+id/ingredientsTitle" />
+
+        <TextView
+            android:id="@+id/pizzaIngredientsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/italianno"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dosePlusButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
