@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.recipes.GumiSutiActivity
 import com.example.recipes.MuffinActivity
 import com.example.recipes.PizzaActivity
 import com.example.recipes.R
@@ -58,6 +59,12 @@ class ItemAdapter(private val context: Context, private val dataset: List<Recipe
 
             if ( holder.textView.text == "Kelt pizzatészta") {
                 intent = Intent(context, PizzaActivity::class.java)
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                context.startActivity(intent)
+            }
+
+            if ( holder.textView.text == "Gumi süti") {
+                intent = Intent(context, GumiSutiActivity::class.java)
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 context.startActivity(intent)
             }

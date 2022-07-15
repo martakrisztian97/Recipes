@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pizza_bg">
+    android:background="@color/pizza_bg" >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/italianno"
             android:text="@string/ingredients"
-            android:textColor="@color/black"
+            android:textColor="@color/muffin_dark"
             android:textSize="48sp"
             android:textStyle="bold"
             android:textAlignment="center"

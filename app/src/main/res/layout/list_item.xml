@@ -25,6 +25,7 @@
                 android:layout_marginStart="16dp"
                 android:textSize="36dp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 android:gravity="center_vertical"/>
         </LinearLayout>
 </LinearLayout>

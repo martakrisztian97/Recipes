@@ -12,12 +12,18 @@
         <activity
             android:name=".PizzaActivity"
             android:exported="true"
-            android:label="@string/pizza" />
+            android:label="@string/pizza"
+            android:theme="@style/Theme.Pizza" />
         <activity
             android:name=".MuffinActivity"
             android:exported="true"
             android:label="@string/muffin"
             android:theme="@style/Theme.Muffin" />
+        <activity
+            android:name=".GumiSutiActivity"
+            android:exported="true"
+            android:label="@string/gumiSuti"
+            android:theme="@style/Theme.GumiSuti" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

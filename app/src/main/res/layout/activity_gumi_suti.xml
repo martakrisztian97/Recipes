@@ -6,22 +6,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/muffin_bg" >
+    android:background="@color/gumiSuti_bg" >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".MuffinActivity">
+        tools:context=".GumiSutiActivity">
 
         <ImageView
-            android:id="@+id/muffinImage"
+            android:id="@+id/gumiSutiImage"
             android:layout_width="300dp"
             android:layout_height="198dp"
             android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/home_muffin" />
+            app:srcCompat="@drawable/home_gumisuti" />
 
         <TextView
             android:id="@+id/ingredientsTitle"
@@ -30,27 +30,55 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/italianno"
             android:text="@string/ingredients"
-            android:textColor="@color/muffin"
+            android:textColor="@color/black"
             android:textSize="48sp"
             android:textStyle="bold"
             android:textAlignment="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/muffinImage" />
+            app:layout_constraintTop_toBottomOf="@+id/gumiSutiImage" />
 
         <TextView
-            android:id="@+id/muffinIngredientsText"
+            android:id="@+id/gumiSutiIngredientsText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/italianno"
             android:textAlignment="center"
-            android:textColor="@color/muffin"
+            android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ingredientsTitle" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/preparationTitle"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/italianno"
+            android:text="@string/preparation"
+            android:textColor="@color/black"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gumiSutiIngredientsText" />
+
+        <TextView
+            android:id="@+id/gumiSutiPreparationText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/italianno"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/preparationTitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

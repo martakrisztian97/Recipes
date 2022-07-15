@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="home">#b71c1c</color>
-    <color name="home_light">#f05545</color>
-    <color name="home_dark">#7f0000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="home">#B57039</color>
+    <color name="home_dark">#81440d</color>
+    <color name="home_light">#eb9f65</color>
+    <color name="home_bg">#ffcba4</color>
     <color name="muffin">#4c312e</color>
-    <color name="muffin_light">#795b57</color>
     <color name="muffin_dark">#240a04</color>
     <color name="muffin_bg">#fff7d9</color>
+    <color name="pizza">#ba9974</color>
+    <color name="pizza_dark">#896b48</color>
     <color name="pizza_bg">#f6d09f</color>
+    <color name="gumiSuti">#ef8f8f</color>
+    <color name="gumiSuti_dark">#ba6062</color>
+    <color name="gumiSuti_bg">#ffc0bf</color>ffc0bf
+
 </resources>
