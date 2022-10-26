@@ -9,7 +9,8 @@ class Datasource {
         return listOf<Recipe> (
         Recipe(R.string.muffin, R.drawable.icon_muffin),
         Recipe(R.string.pizza, R.drawable.icon_pizza),
-        Recipe(R.string.gumiSuti, R.drawable.icon_gumisuti)
+        Recipe(R.string.gumiSuti, R.drawable.icon_gumisuti),
+        Recipe(R.string.kaprosTokfozelek, R.drawable.icon_tokfozelek)
         )
     }
 }

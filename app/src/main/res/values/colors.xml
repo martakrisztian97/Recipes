@@ -14,6 +14,9 @@
     <color name="pizza_bg">#f6d09f</color>
     <color name="gumiSuti">#ef8f8f</color>
     <color name="gumiSuti_dark">#ba6062</color>
-    <color name="gumiSuti_bg">#ffc0bf</color>ffc0bf
+    <color name="gumiSuti_bg">#ffc0bf</color>
+    <color name="kaprosTokfozelek"></color>
+    <color name="kaprosTokfozelek_dark"></color>
+    <color name="kaprosTokfozelek_bg">#eca35f</color>
 
 </resources>

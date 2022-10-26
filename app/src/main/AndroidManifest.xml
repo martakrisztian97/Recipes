@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recipes">
         <activity
+            android:name=".KaprosTokfozelekActivity"
+            android:exported="true"
+            android:label="@string/kaprosTokfozelek" />
+        <activity
             android:name=".PizzaActivity"
             android:exported="true"
             android:label="@string/pizza"

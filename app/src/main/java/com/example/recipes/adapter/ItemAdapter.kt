@@ -8,10 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recipes.GumiSutiActivity
-import com.example.recipes.MuffinActivity
-import com.example.recipes.PizzaActivity
-import com.example.recipes.R
+import com.example.recipes.*
 import com.example.recipes.model.Recipe
 
 class ItemAdapter(private val context: Context, private val dataset: List<Recipe>)
@@ -46,6 +43,18 @@ class ItemAdapter(private val context: Context, private val dataset: List<Recipe
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 context.startActivity(intent)
             }
+
+            if ( holder.textView.text == "Gumi süti") {
+                intent = Intent(context, GumiSutiActivity::class.java)
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                context.startActivity(intent)
+            }
+
+            if ( holder.textView.text == "Kapros tökfőzelék") {
+                intent = Intent(context, KaprosTokfozelekActivity::class.java)
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                context.startActivity(intent)
+            }
         }
 
         // text click event
@@ -65,6 +74,12 @@ class ItemAdapter(private val context: Context, private val dataset: List<Recipe
 
             if ( holder.textView.text == "Gumi süti") {
                 intent = Intent(context, GumiSutiActivity::class.java)
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                context.startActivity(intent)
+            }
+
+            if ( holder.textView.text == "Kapros tökfőzelék") {
+                intent = Intent(context, KaprosTokfozelekActivity::class.java)
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 context.startActivity(intent)
             }

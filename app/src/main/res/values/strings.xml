@@ -2,16 +2,19 @@
     <string name="app_name">Dalma receptjei</string>
     <string name="ingredients">Hozzávalók</string>
     <string name="preparation">Elkészítés</string>
+
     // Label strings
     <string name="muffin">Muffin</string>
     <string name="pizza">Kelt pizzatészta</string>
     <string name="gumiSuti">Gumi süti</string>
+    <string name="kaprosTokfozelek">Kapros tökfőzelék</string>
 
     // Recipes strings
     <string-array name="recipes">
         <item>Muffin</item>
         <item>Kelt pizzatészta</item>
         <item>Gumi süti</item>
+        <item>Kapros tökfőzelék</item>
     </string-array>
 
     // Ingredients strings
@@ -85,32 +88,59 @@
         <item>3 csomag vaníliás cukor</item>
         <item>80 g zselatin</item>
         <item>3,5 dl szörp</item>
-        <item>2 ek cukrozatlan kakaópor</item>
+        <item>2 ek. cukrozatlan kakaópor</item>
         <item>víz</item>
-        <item>15 ek porcukor</item>
+        <item>15 ek. porcukor</item>
+    </string-array>
+
+    <string-array name="kaprosTokfozelekIngredients">
+        <item>3 ek. liszt</item>
+        <item>3-4 fej vöröshagyma</item>
+        <item>1 csomag kapor</item>
+        <item>1 nagyobb tök</item>
+        <item>pirospaprika</item>
+        <item>tejföl</item>
+        <item>1-2 fej paradicsom</item>
+        <item>hús</item>
+        <item>delikát</item>
+        <item>bors</item>
+        <item>mustár</item>
+        <item>őrölt kömény</item>
     </string-array>
 
     <string-array name="gumiSutiPreparation">
-        <item>1. Réteg</item>
+        <item>1. RÉTEG</item>
         <item>1. Elsőnek szétválasztunk 3 tojást, a sárgájához hozzáadunk 1 csomag vaníliás cukrot és 5 ek. porcukrot.</item>
         <item></item>
         <item>2. A tojásfehérjét habbá verjük, majd összekeverjük a sárgájával. Közben 1,3 dl vizet forralunk, és hozzáadjuk a zselatint. (Általában 1 csomag 20 g, és épp annyi kell bele.)</item>
         <item></item>
         <item>3. Várunk picit, míg kicsit hűl, és hozzákeverjük a tojásos keverékhez. Majd egy formába rakjuk. (Magas falú tepsi vagy jénai tál megfelel.) Hűtőbe tesszük dermedni.</item>
         <item></item>
-        <item>2. Réteg</item>
+        <item>2. RÉTEG</item>
         <item>A 2. réteg ugyanúgy készül, mint az első. Annyi különbséggel, hogy a zselatin előtt belekeverjük a kakaóport. Aztán jöhet a zselatin, eldolgozzuk, kivesszük a hűtőből a megdermedt 1. rétegünket, és ráöntjük a tetejére a kakaósat. Aztán vissza a hűtőbe.</item>
         <item></item>
-        <item>3. Réteg</item>
+        <item>3. RÉTEG</item>
         <item>1. A 3. rétegbe 5 dl tejföl, 5 ek. porcukor és 1 csomag vaníliás cukor kerül. Ha ezt összekevertük, jöhet bele a 1,5 dl vízzel elkevert zselatin. Persze ezt is ugyanúgy, előbb felforraljuk, bele a zselatin, és várunk míg kicsit kihűl, majd úgy tesszük a keverékhez.</item>
         <item></item>
         <item>2. Elővesszük a hűtőből az elkészült két réteget, majd ráöntjük a 3.-at is. Mehet vissza újra pihenni.</item>
         <item></item>
-        <item>4. Réteg</item>
+        <item>4. RÉTEG</item>
         <item>1. A 4. rétegbe nem kell más, mint 3,5 dl málna szörp (de igazából szerintem bármilyen jó), és most 1 dl víz, bele a 20 g zselatinnal.</item>
         <item></item>
         <item>2. Felforraljuk a vizet, beletesszük a zselatint, hozzáadjuk a málnaszörpöt. Az utolsó rétegnél vigyázni kell, érdemes megvárni míg langyosra hűl, mert ha túl forrón tesszük rá a többi rétegre, átüthet rajta, és nem lesz csíkos. Ha langyos, ráöntjük a többi rétegre, visszatesszük a hűtőbe, és hagyjuk összedermedni.</item>
     </string-array>
 
+    <string-array name="kaprosTokfozelekPreparation">
+        <item>HABARÁS</item>
+        <item>Kis olajon hagyma és 3 ek. liszt aranybarnára, majd víz, pirospaprika, tejföl.</item>
+        <item></item>
+        <item>TÖKFŐZELÉK</item>
+        <item>A tököt mehámozzuk és lereszeljük, vízbe tesszük a kaporral együtt és megfőzzük, majd leszűrjük. A leszűrt levet rakjuk félre későbbre.</item>
+        <item>Összekeverjük a habarást a leszűrt tökkel. A félrerakott lével hígíthatjuk.</item>
+        <item></item>
+        <item>PÖRKÖLT</item>
+        <item>2 fej hagymát apróra vágunk, majd olajon üvegesre piríjuk, majd 1 paradicsom + fűszerek, aztán hús, pirospaprika, aztán víz.</item>
+        <item>Amikor félig megpuhult a hús, akkor mehet hozzá mustár és egy kis őrölt kömény.</item>
+    </string-array>
 
 </resources>
